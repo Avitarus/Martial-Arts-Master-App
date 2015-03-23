@@ -21,6 +21,18 @@ Sub Activity_Create(FirstTime As Boolean)
 	 Activity.Title = "Sie sind hier: Startseite > " & Main.strListview1Ergebnis
 	ListView2.Initialize("ListView2")
 	
+			ListView2.FastScrollEnabled = True 'schnellscrollgriff
+			ListView2.SingleLineLayout.Label.Gravity = Gravity.CENTER
+			ListView2.SingleLineLayout.Label.TextSize = 20
+			ListView2.SingleLineLayout.ItemHeight = 35dip
+			ListView2.SingleLineLayout.Label.TextColor = Colors.red'RGB(Rnd(0, 150), Rnd(0,150), Rnd(0,150))
+			ListView2.SingleLineLayout.Label.Color = Colors.RGB(255, 165, 0)
+			ListView2.SingleLineLayout.Label.Typeface = Typeface.DEFAULT_BOLD
+	
+	
+	
+	
+	
 	If Main.strListview1Ergebnis = "Training" Then Training
 	If Main.strListview1Ergebnis = "Statistik" Then Statistik
 	If Main.strListview1Ergebnis = "Pläne" Then Plaene
@@ -48,7 +60,7 @@ Sub Statistik
 	ListView2.Initialize("Listview2")
     
         ListView2.AddSingleLine("Training")
-	
+
     
         ListView2.AddSingleLine("Training")
 		ListView2.AddSingleLine("Statistik")

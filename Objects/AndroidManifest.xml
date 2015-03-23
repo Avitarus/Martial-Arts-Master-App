@@ -1,25 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	package="de.b4a.mama"
+	package="de.watchkido.mama"
 	android:versionCode="1"
-	android:versionName="20150323"
+	android:versionName="23.03.2015"
 	android:installLocation="internalOnly">
 	
-	<uses-sdk android:minSdkVersion="4" android:targetSdkVersion="14"/>
+	<uses-sdk android:minSdkVersion="4" />
 	<supports-screens android:largeScreens="true" 
 	    android:normalScreens="true" 
 	    android:smallScreens="true" 
 	    android:anyDensity="true"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	<uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+	<uses-permission android:name="android.permission.FLASHLIGHT"/>
+	<uses-permission android:name="android.permission.RECORD_VIDEO"/>
+	<uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+	<uses-permission android:name="android.permission.BLUETOOTH"/>
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.SEND_SMS"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
 	<application
 		android:icon="@drawable/icon"
 		android:label="MAMA">
+		
+		<activity android:name="anywheresoftware.b4a.objects.preferenceactivity"/>
+		<Activity android:name="com.tapfortap.TapForTapActivity"/>
 		<activity
 			android:windowSoftInputMode="stateHidden"
 			android:launchMode="singleTop"
 			android:name=".main"
 			android:label="MAMA"
-			android:screenOrientation="unspecified">
+			android:screenOrientation="portrait">
 			<intent-filter>
 			   <action android:name="android.intent.action.MAIN" />
 			   <category android:name="android.intent.category.LAUNCHER" />
@@ -29,23 +44,153 @@
 		<activity
 			android:windowSoftInputMode="stateHidden"
 			android:launchMode="singleTop"
-			android:name=".auswahl1"
+			android:name=".spiele"
 			android:label="MAMA"
-			android:screenOrientation="unspecified">
+			android:screenOrientation="portrait">
 		</activity>
 		<activity
 			android:windowSoftInputMode="stateHidden"
 			android:launchMode="singleTop"
-			android:name=".personendatenbank"
+			android:name=".trainingkickboxen"
 			android:label="MAMA"
-			android:screenOrientation="unspecified">
+			android:screenOrientation="portrait">
 		</activity>
 		<activity
 			android:windowSoftInputMode="stateHidden"
 			android:launchMode="singleTop"
-			android:name=".trainingstagebuch"
+			android:name=".startabfragen"
 			android:label="MAMA"
-			android:screenOrientation="unspecified">
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".einstellungenapp"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".erfolgsmeldung"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".checkliste"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".wettkampf"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".einstellungenwettkampf"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".einstellungen"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".einstellungenah"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".training"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".einstellungenstunde"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".facebook"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".einstellungentrainingkick"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".einstellungentrainingstunde"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".benachrichtigung"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
+		</activity>
+		<service android:name=".downloadservice">
+		</service>
+		<receiver android:name=".downloadservice$downloadservice_BR">
+		</receiver>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".kampfsportlexikon"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".karatestunde"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".tts"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".lebensmittel"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".tagebuch"
+			android:label="MAMA"
+			android:screenOrientation="portrait">
 		</activity>
 	</application>
 </manifest>

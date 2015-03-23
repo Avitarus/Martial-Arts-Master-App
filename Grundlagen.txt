@@ -1,0 +1,34 @@
+Kampfstellung-Kickboxen
+Kampfstellung-Pointfighting
+Step-Forward
+Step-Backward
+Step-Leftside
+Step-Rightside
+Feinting-Down - Ausweichen Unten
+Feinting-Back - Ausweichen Hinten
+Bobbing-left - Ausweichen Links
+Bobbing-Right - Ausweichen Rechts
+Weave-Left - Abtauchen Links
+Weave-Right - Abtauchen Rechts
+Low-Kick-Block-auﬂen
+Low-Kick-Block-Innen
+Jab - vorderer Fauststoﬂ
+Punch - hinterer Fauﬂtstoﬂ
+Hook - Haken Vorne
+Hook - Haken Hinten
+Uppercut-Vorne
+Uppercut-Hinten
+Backfist-Vorne
+Backfist-Hinten
+Spinning-Backfist
+Front-Kick
+Side-Kick
+Low-Kick
+Roundhouse-Kick-gedreht
+Roundhouse-Kick-geschnappt
+Tornado-Roundhouse-Kick
+Hook-Kick
+Axe-Kick
+Back-Kick
+Spinning-Hook-Kick
+Sweep - Fuﬂfeger

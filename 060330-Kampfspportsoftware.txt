@@ -1,0 +1,350 @@
+Projekt: Kampfsportsoftware für optimales Training nach effektivsten Methoden
+"Der Kampfkunstplaner des Kampfsportmeisters"
+
+
+Auswahlblock:
+
+1. zufall?der reige nach? spezielle übung? übungen von - bis- + zeitraum
+2.           -||-
+
+
+
+Einteilung der Übungen nach
+1. Übungen die Täglich geübt werden können( meditation, Mentales training)
+2. Übungen die Wöchendlich geübt werden ( arme, beine, bauch, schläge, Tritte)
+3. Übungen die Monatlich geübt werden ( Tests)
+4. Übungen die Jährlich geübt werden ( Wettkämpfe, Prüfungen)
+5. Schwirigkeitsgrad ( Gürtelfarbe)
+6. Kampfkunst
+
+
+Übungen zur Leistungsdiagnostik festlegen:
+
+1. Menge der gezeigten sauberen Kombinationen pro minute
+2. Saubere Kata
+3. Kime
+4. Schnelligkeit
+5. Flexibilität
+6. Ausdauer
+7. Kraft
+8. Conconi-Test am Sandsack/an Pratzen
+9. saubere Technik
+10. Motivation
+11. Ligestütz
+12. Kniebeuge
+13. Klimmzüge
+14. Schlag- und Trittkraft-Ausdauer
+
+ENDE: Anhand der Übungen einen individuellen Trainingsplan festlegen und bei der nächsten Diagnostik vergleichen, ob Fortschritte vorhanden 
+
+
+
+
+
+Fähigkeiten der Software
+
+1. Software mit der man Zuhause und/oder im Kampfsportklub trainieren kann. 
+Die Software sollte die Möglichkeit beinhalten, dass man jeden Schüler einzeln einträgt, mit Stärken, Schwächen, Ergebnissen, Zielen, Bemerkungen, usw... Also ein richtiges Logbuch für jeden Schüler. Gleichzeitig sollten Trainingsvorgaben unterteilt werden können: Man gibt z.B. ein, ob man im Dojo trainiert, unter Anleitung, so dass man mehr Technik und Katas trainieren kann. Für zu Hause empfiehlt es sich, je nach Möglichkeit ein Lauftraining vorzuschlagen, oder, falls man ein Fitnessstudio besucht, dorthin zu gehen, mit entsprechenden Krafttrainingsvorgaben. Genauso kann man auch zu Hause Krafttraining machen, mit BodyWeightExercices(Liegestütze und dergleichen).
+Also, kurzgefasst: Man gibt ein, welche Trainingsmöglichkeiten da sind, das Programm schlägt dann ein Training vor.
+2. Übertraining sollte vermieden werden / maximales Training sollte sein
+Im Krafttrainingsplan ist es einfach, Übertraining auszuschließen, dazu ein Blick in die Facharbeit. Für den Rest hilft die Leistungsdiagnostik sowie auch ein Bewertungssystem durch den Trainer, so dass auch Motivationsschwächen eingegeben werden können, wobei das Programm dann mehr Abwechslung vorschlägt. Also, so als würde der Trainer selbst darauf reagieren.
+ 
+3. Zwischentests sollten aus den verschiedenen Übungen innerhalb eines Schwierigkeitsgrades bestehen ( je nach Gürtel, Trainingspläne und Ziele habe ich)Software sollte an vielfältige Übungen anpassbar sein ( ich mache Anti Terror Straßenkampf, Shotokan Karate, Nunchaku-do, Kickboxen, Tai Chi, Ninjutsu) Kung Fu Übungen sollten aber genauso integriert werden können wie Meditation und ideomotorisches Training Man gibt einfach einen allgemeinen Trainingskatalog ein, z.B. alle Techniken auf Deutsch mit denen man die grundsätzlichen Algorhitmen vorgibt(wie oft Beintraining, wie oft dazu Kicks, usw...), natürlich abhängig von der gewählten Sportart. D.h., im Kickboxen würde man je nach Wunsch mehr Wert auf Kampftraining legen(sofern die Grundtechniken verstanden sind), im Karate ist natürlich Kata ein wichtiger Bestandteil. Das Programm kennt also die Techniken und "weiß", was sie bedeuten, so dass kein Krafttraining für die Beine auf hartes Kicktraining folgt, usw... Gleichzeitig werden die eingegeben Techniken aus dem Katalog nach Schwerpunkten verteilt und "übersetzt" in Mawashi-Geri und Roundhouse-Kick.
+Die Tests können nach deiner Erfahrung gewählt, aber später auch angepasst werden, je nach Vorstellung des Trainers.
+Die Tests beinhalten dann so ziemlich alles wichtige, also Koordination, Schnelligkeit, Ausdauer, Kraft. Das können wir gerne noch im Einzelnen durchsprechen, wenn wir in dieser Entwicklungsphase sind.
+UND: Ein Test, z.B. "Kampf": Man lässt die Kids gegeneinander Kämpfen, je nach Sportart entsprechend der Regeln und der Trainer führt einen Bewertungsbogen: Technik, Taktik, Kondition, Hände, Füße, Kombinationen, Offensive, Deffensive, dazu werden Bemerkungen eingetragen. Das kann in Form eines Notensystems laufen(soviel sollte man dem Trainer ja zutrauen), das Programm sieht dann z.B.: Bei der Kondition Note 4, Taktik Note 1, daraus ergeben sich automatisch neue Trainingsschwerpunkte, mit mehr Kondi-Training. Taktik wird trotzdem beibehalten.
+
+
+5. Gut bewährt haben sich bei mir Trainingseinheiten von 45 - 50 min wobei 2 min Training immer wieder von 1 min Verschnaufpause abgelöst werden. So hat man über lange Zeit Megaspaß. Beim Sportklubtraining sollte zum Abschluss immer noch ein kleines 5 min Spiel drin sein. Trainingszeit und Intensität sollte gewählt werden können. Die einen mögen es hart und kurz, die anderen lieber 1,5 h, dafür nicht ganz so hart. Bestandteile sind IMMER Aufwärmtraining, das wir gerne noch genauer unter die Lupe nehmen können(angepasst an den folgenden Trainingsplan), normales Training, Abwärmen inkl. Spiele.
+6. gezieltes Krafttraining sollte mit dabei sein. Also, längere Kraftphase mit wechselnden Unterteilungen - also, Training wie in meiner Facharbeit, dazu noch hinterher eine Verlängerung wo man die Übungen je einen Satz, mit einer 2min-Wiederholung macht,
+7. Ernährungstipps / Gewichtsüberwachung (Eiweiß Fett usw..)
+Ernährung und Gewicht sind wichtig, jedoch darf man nicht ausschließen, dass vielleicht jemand gewisse Allergien hat, usw... Das heißt, ErnährungsTIPPS, keine Vorgaben, dazu aber eine Überwachung des Gewichts und des Körperfettanteils mit einem Caliper(siehe Internet - kostet wenig und ist ziemlich genau bei www.novagenics.com ) kleinen Diätplaner. Oder einen für den Masseaufbau.
+
+9. Ein Fernseher/ Beamer oder ein Pocket PC kann auch bei gemischten Gruppen für jeden die Übungen ausgeben ( weißgurte: oi zucki, gelbgurte: oi gyaku, oragne ....)
+10. die Trainings und Pausenzeiten sollten durch ein akustisches und optisches Signal erkenntlich sein
+11. Bei Verdacht auf Übertraining sollte evtl. das Training etwas leichter gestaltet werden, bzw. abwechslungsreicher.
+12. Zudem muss eine Periodisierung eingebaut werden, d.h. man kann natürlich nicht durchgehend Erfolge haben. In meinem Kraftprogramm ist das durch Masse- und Kraftphase gegeben. Beim Kampfsport ist es natürlich wieder schwerer, die richtigen Einteilungen zu treffen. 
+13. Sie muss geld einbringen entweder weil sie das Training so enorm optimiert, weil sie sich gut verkaufen lässt oder weil sich damit eine Kampfkunstdojokette eröffnen lässt.
+14. Sie sollte andere Firmen mit einbezihen. z.B. Udos ´Sportartikelschop www.budoquipment.de...
+15. Überaus interessant für Trainer, Lehrer und Ausbilder
+16. Gute Dokumentation, möglichst selbsterklärend
+17 eine Seite für Optionen und Einstellungen
+18.eine für eingaben
+19. eine für ausgaben
+20. INternetportal
+21. Email+InternetFAQ+Telefonhotline
+22. Datenabgabe zur kontrolle für uns, 
+23  Fehlermeldungen übers internet 
+
+
+
+Basis:
+ 
+Kampfsportclub
+Home
+Verein
+
+Systeme:
+ 
+PC
+PPC
+Handy
+ 
+
+Preis:
+ 
+ca 60.- euro
+Kampfsportclubversion 600.-
+Vereinsversion 120.-
+ 
+ 
+Verkauf über:
+ 
+Internetshop Firma ShareIt
+ 
+
+Werbung:
+ 
+Wichtigste Frage: wie sich die "Meister" in ihr Training reinreden lassen...
+Privatverwendung
+Fortschrittschilderung im netz
+Virales Marketing
+Kampfsportzeitschriften
+T-Shirtwerbung der Clubmitglieder
+DOjokette wie Software benennen 
+in den Foren bewerben, ob BBSzene.de oder Kampfkunst-Board
+Je optimaler das Training ist um um so besser die Schüler werden desto öfter wird das eingesetzt.
+Es ist nur so das es Monate oder Jahre dauert bis ein Trainier merkt das seine Methode schlecht ist.
+Ich vermute das Programm setzen nur Trainer ein die wissen das sie nicht alles wissen.
+Davon gibts allerdings nicht viele. Andererseits: wenn man damit mehr Erfolge hat als in einem anderen Verein sollte sich das schnell rumsprechen. Ich sag es mal so: Hätte ich das Programm so gehabt wie es jetzt werden kann dann hätte mein Verein länger überlebt, ich hätte länger Spass am Training gehabt und die Schüler hätten öfter in Meisterschaften gewonnen.
+Vermutlich hätte ich bereits eine ganze Kette von Kampfsportstudios ... :-)
+
+
+Dateneingabe ins Programm:
+ 
+jeder Schüler selbst per Datenstick
+Trainer für alle 
+Die Schüler kriegen eine Auskopplung des Programms nach Hause, wo der Trainer vorher festlegen kann, welche Teile bei den Schülern installiert werden. Z.B. das Krafttraining und Jogging, also, was man eben zu Hause machen kann. Damit es keine Konflikte gibt, und die Programme voneinander wissen, muss es einfach sein, gewisse Parameter ins "Heimprogramm" einzugeben, damit das Programm weiß, wann das "Hauptprogramm" welches Training vorgibt. Das Hirn ist also beim Trainer und die Tentakel bei den Schülern.
+Oder jeder Schüler erhält eine Kopie und der Trainer gibt den Leuten die Feedback-Bögen mit...
+ 
+
+Datenausgabe:
+ 
+Datum, Trainingsplan nach vorgabe, Zeitplan, Pieptöne für Trainingsplan
+Ernährungstipps / Fett Eiweis Kh Mengen ... 
+Zusatznahrung Ergänzungen
+Anteile an der Ernährung vorschlagen. 
+Jeder muss dann anhand von Datenbanken(gibt es im Netz zuhauf) seine Nahrungsaufnahme dokumentieren, dazu den Körperfettanteil. 
+Daraus kann das Programm dann weitere Vorschläge machen, je nach Wunsch, ob Masse aufgebaut oder Fett verloren werden soll...
+ 
+ 
+ 
+Zielauswahl:
+ 
+Kampfkunstmeister ( beinhaltet mehrere Sportarten sowie Meditation Ideomot.Train. u.s.w.)
+Kampfsportmeister ( Meisterschaft in einer Sportart)
+Wettkampf
+Fitness
+Bodybuilding
+Mischungen möglich
+Frauenselbstverteidigung / SV
+ 
+
+Trainingszeitvorgaben:
+ 
+1 x in der woche
+täglich 2h
+...
+
+
+Intensitätsvorgaben.
+ 
+Wettkampf
+Knallhart
+mittel
+Fitness
+Mobilisierung
+ 
+ 
+
+Module:
+ 
+Karate, Kickboxen, ...
+
+Zusatzmodule:
+Ideomotorisches Training / Psychologisches Kampftraining
+Training geistige Ausgeglichenheit (Bedürfnissbefriedigung)
+Tai chi / Chi Gong / Tensegrity
+Shotokan Karate / Goju Ryu / Kong-shou-dau
+Kick-Boxen / Tai boxen
+Anti-Terror-Strassenkampf / Close Combat
+Ninjutsu / Tai-te-ken-nin-jutsu
+Taekwondo / Showkarate
+BodyWeightExercices
+Nunchaku-do
+Survival - Überlebenstraining
+ 
+
+
+Spezialisierungen:
+ 
+Kraft
+Kime
+Schnelligkeit
+Flexibilität
+Ausdauer
+Muskelwachstum
+Kata
+Wettkampf
+Technik
+Jogging / Ausdauer
+BodyWeightExercices
+Fitnesstudio
+ 
+
+ 
+regelmäßige Leistungstests:
+ 
+Condition/ Ausdauer
+Kraft
+Schnelligkeit
+Flexibilität
+Lust/ Interesse ( subjektiv)
+Muskelmasse
+Muskelumfang
+Schnelligkeit
+koordination
+Ruhepuls
+Korrekte Beherrschung der Techniken
+Übungen zur Leistungsdiagnostik festlegen(siehe Buchtipp) 
+Anhand der Übungen einen individuellen Trainingsplan festlegen und bei der nächsten 
+Diagnostik vergleichen, ob Fortschritte vorhanden 
+Ernährungscheck
+Caliper
+Koordination
+Kampf jeder gegen jeden (ko system)
+Wettkampf extern
+Gürtelprüfungen nach bestimmten trainingszeiträumen 20h 30h 40h usw.
+ 
+
+
+Aufgaben momentan:
+ 
+1. Java lernen!
+2. Das Buch von Peter Zaar durch"arbeiten", mit Notizen, usw...
+3. Meine alten Schulunterlagen und das Internet durchforsten nach Leistungstests, 
+ 
+Trainingsmethoden (Auditiv, Deduktiv, und wie sie alle heißen).
+4. Den Freund von mir konsultieren bezüglich Ausdauertraining.
+ 
+
+ 
+Siegesfeier: 
+ 
+beim 333 verkauf :-)
+ 
+
+vermutete Entwicklungskosten:
+13000 Lohn
+7000  sonstiges
+ 
+ 
+ 
+Logbuch /einträge/ rechengrundlagen für den User:
+ 
+Stärken, Schwächen, Ergebnisse, Ziele, Bemerkungen
+Logbuch Trainer, Logbuch Schüler(subjektive beurteilungen)
+
+
+Trainingsort:
+ 
+Home
+Outdoor
+Privater Dojo allein
+Privater Dojo als Trainer
+Vereinstrainer ( hat weniger Trainingszeiten zur verfügung)
+ 
+
+Trainingsstruktur optionen wählbar:
+ 
+aufwärmen
+training / kihon, kumite, kata, bunkai, SV, kampf, ausdauer....
+abwärmen
+spiel
+ 
+
+Ausgabemöglichkeiten:
+ 
+PC im Dojo
+PPC im Dojo
+alles auf CD/ MP3
+Ausdruck
+Texdatei und TIMER im Handy
+Programm im Handy
+ 
+ 
+Beginn:
+
+Tabelle erschaffen in der Jede übung eingeteilt ist nach den Optionen die wir im programm haben:
+karate, privat zu üben, muskeltraining, schnelligkeit, wettkampf, tägliche übung? für Prüfung geeignet? fettabbau muskelaufbau.
+
+
+Trainingsplanvarianten:
+1. 	45 min alle übungen für gürtel  grün
+2. 	mo 2 min 1 min gürtel grün
+3.  	mo 30 min ideomotorisches ttrainine
+    	di 30 min ideomot 
+	mi alles ideomot 1-3 dann karate 2-1 min alle übungen
+	do karate zufallskombinationen 2-1
+	fr wandern
+	sa ...
+ 
+ Beim "Kampfkunstlehrer -Programm" ist die Einteilung:
+Bild ( Faust mit Arm), Text ( z.B.: Oi-Zuki )
+und 
+eine oder mehrere der nachfolgenden Kategorien:
+1. Kann die Übung a. Täglich, b. Wöchendlich, c. Monatlich,  oder nur d: jährlich ausgeführt werden?
+2. Für welchen Gürtelgrad ist die Übung geeignet: a. weiß, b. gelb, c. orange, ... schwarz
+3. ist es eine Schnelligkeitsübung ja/nein?
+4. erfordert sie Flexibilität j/n?
+5. Ausdauer
+6. Kraft
+7. saubere Ausführung
+8. Kime
+9. ist sie geeignet für a: Zuhause,b: fitnesstudio, c: Dojo, d: Verein
+10 unter Anleitung eines Trainers , ohne Anleitung ausführbar
+11. Kann diese Übung für einen Leistungstest verwendet werden?
+12. ist die Übung a: mobilisierend, b: fitmachend, c: mittelschwer, d: knallhart, e: zur wettkampfvorbereitung.
+13. Ist die Übung zur erwärmung , zum Abwärmen oder als Spiel geeignet?
+14. Ist die Übung für Kinder unter 7 oder/und Alte über 60 geeignet?
+15. ist es eine Karate, Kickbox, ninjutrzu, kung fu, tai chi, ATS, Nunchaku-Do, Close Combat, Tensegrity, Survival, Teakwondo, ideomotorische.... Übung?
+hier kommen vermutlich noch 5-10 andere Einteilungen dazu auch ist die obige liste nicht vollständig.
+ 
+ 
+ Hallo!
+
+Also, zunächst ist wichtig, dass wir die ersten Übungen notieren, wie du es
+eben gerade vor hast. Sobald die Liste fertig ist, erstellen wir damit eben
+eine Art Matrix, d.h. wir gliedern die Techniken nach dem ausführenden
+Körperteil, Arm, Ellbogen, Bein, usw...
+Dann kann man ja diese Liste beliebig "umschreiben", also dem Programm
+sagen, dass der "Kizami-Zuki"(Neue Rechtschreibung?) im Karate der Jab im
+Boxen und Kickboxen ist oder eben ein Mad Throng Sai im Muay Thai...
+Das ist aber nix Großes, eben nur ne Liste schreiben, das kann man aus dem
+Prüfungsprogramm rauslesen.
+Wichtig ist, dass das Programm(und wir) weiß, wann die Beine stark
+beansprucht werden, und wann die Arme, usw...
+
+Als nächstes müssen wir uns schonmal grundlegende Trainingspläne überlegen.
+Also, eine Periodisierung nach Wochen und Monaten und natürlich den Plan für
+das jeweilige Einzeltraining.
+Ich setze mich da gleich heute nochmal ein bisschen an das Buch von Peter
+Zaar.
+
+Sobald wir auch das haben, sollten wir uns Gedanken machen, welche Eingaben
+der Trainer nach jeder Einheit machen kann/muss und wie unser Programm
+reagiert.
+
+Soweit erstmal, das sind ja definierte Ziele, die wir auch sicher bald
+erreicht haben...
+ 

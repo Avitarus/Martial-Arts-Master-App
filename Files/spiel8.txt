@@ -1,0 +1,3 @@
+﻿Wo ist das Tor?
+Schnelligkeit, Reaktion, Raumorientierung
+Es spielen zwei Mannschaften (ca. vier bis fünf Schüler) auf dem gleichen Feld gegeneinander. Die Spieler einer Mannschaft werfen sich den Ball zu und versuchen, ihn in einem Tor abzulegen. Das Tor (der Ballwagen oder ein waagerecht gehaltener Hola Hop Reifen) wird vom Lehrer oder einer neuralen Person durch das Spielfeld geschoben, so dass eine Torchance erschwert wird. Die Spieler müssen sich immer wieder neu orientieren.

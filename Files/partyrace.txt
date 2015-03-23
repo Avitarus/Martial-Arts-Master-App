@@ -1,0 +1,8 @@
+Unknown
+White
+Black
+Hispanic
+Asian
+Native American
+Middle Eastern
+Other
