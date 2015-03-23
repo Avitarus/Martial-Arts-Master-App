@@ -1,0 +1,108 @@
+﻿Version=3
+IconFile=
+NumberOfModules=3
+Module1=Auswahl1
+ModuleVisible1=1
+Module2=Personendatenbank
+ModuleVisible2=1
+Module3=Trainingstagebuch
+ModuleVisible3=1
+Package=de.b4a.mama
+DoNotOverwriteManifest=False
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: http://www.basic4ppc.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="4" android:targetSdkVersion="14"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~'End of default text.~\n~
+UserTypesHint=
+NumberOfFiles=0
+NumberOfLibraries=4
+Library1=core
+Library2=mplzooz
+Library3=oauth
+Library4=phone
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: MAMA
+	#VersionCode: 1
+	#VersionName: 20150323
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: True
+#End Region
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	Dim bolClubbesitzer As Boolean : bolClubbesitzer = True
+	Dim strListview1Ergebnis As String 
+	Dim strSpracheID As String: SpracheID = "de"
+	Dim strMeineEmail As String : MeineEmail = "mama@watchkido.de"
+	Dim strMeineNummer As String : MeineNummer = "015258120499"
+End Sub
+Sub Globals
+    Dim ListView1 As ListView
+	Dim p As PhoneIntents
+   
+	
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+    ListView1.Initialize("ListView1")
+    
+        ListView1.AddSingleLine("Training")
+		ListView1.AddSingleLine("Statistik")
+		ListView1.AddSingleLine("Pläne")
+		ListView1.AddSingleLine("Personendatenbank")
+		ListView1.AddSingleLine("Trainingstagebuch")
+		ListView1.AddSingleLine("Tauschring")
+		ListView1.AddSingleLine("Shop")
+		ListView1.AddSingleLine("Einstellungen Training")	
+		ListView1.AddSingleLine("Einstellungen App")
+		If bolClubbesitzer Then
+			ListView1.AddSingleLine("1. Hilfe - Psychologie")
+			ListView1.AddSingleLine("Leistungsdiagnostik")
+			ListView1.AddSingleLine("Recht und Gesetz")
+			ListView1.AddSingleLine("Business")
+		End If	
+			
+    
+    Activity.AddView(ListView1, 0, 0, 100%x, 100%y)
+End Sub
+
+Sub ListView1_ItemClick (Position As Int, Value As Object)
+    Activity.Title = "Sie sind hier: Startseite"
+	'Dim auswahl As String
+	'auswahl = Value
+	
+	
+	Select Value
+	
+		Case "Personendatenbank"  
+			StartActivity(Personendatenbank)
+		Case "Trainingstagebuch"
+			StartActivity(Trainingstagebuch)
+		Case "Tauschring"
+			StartActivity(p.OpenBrowser("http://www.tauschen-ohne-geld.de/23041/der-tauschring-des-bushido-sport-club-neustadt-weinstrasse/?martial-arts-master-app"))
+		Case "Shop"
+			StartActivity(p.OpenBrowser("http://www.budokonzept.de/?martial-arts-master-app"))
+		Case Else
+			strListview1Ergebnis = Value
+			StartActivity(Auswahl1)
+	
+	End Select
+	
+	
+	
+	
+End Sub
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+
